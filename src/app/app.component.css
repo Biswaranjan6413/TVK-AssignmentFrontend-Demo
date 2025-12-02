@@ -1,0 +1,27 @@
+.main-container{
+    display: flex;
+    justify-content: space-between
+}
+.main-container h2{
+    color: rgba(253, 2, 60, 0.893);
+    font-weight: bold;
+   
+}
+.main-container nav{
+    margin: 0;
+    padding: 0;
+    text-align: right; 
+}
+nav a{
+    margin: 10px; 
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(2, 2, 137);
+    font-weight: bold;
+}
+nav a:hover{
+    cursor: pointer;
+    color: rgb(1, 1, 70);
+    font-size: 23px;
+}
