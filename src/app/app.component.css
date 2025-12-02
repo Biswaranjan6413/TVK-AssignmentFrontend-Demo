@@ -1,11 +1,22 @@
-.id{
-    background-color: blue;
-    padding: 40px;
-     border-radius: 5px; 
-     font-size: 25px;
-     font-weight: bold;
-     text-align: right;
-    
-    
+.header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: cyan;
+    padding: 20px 50px;
 }
 
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.header ul li {
+    font-size: 24px;
+    cursor: pointer;
+}
